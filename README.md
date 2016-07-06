@@ -39,7 +39,7 @@ $ python3 hog_gui.py -f
 ```
 To see win rate of final stragegy, run:
 ```sh
-$ python3 hog_gui.py --final
+$ python3 hog.py --final
 ```
 
 ### Improving the AI
@@ -53,4 +53,3 @@ in the bottom of the file `hog.py`
 [here]
 
 [here]: <http://61a-su15-website.github.io/proj/hog/>
-
