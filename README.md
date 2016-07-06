@@ -1,5 +1,7 @@
 # The Game of Hog
 
+![](https://github.com/timkchan/hog/blob/master/images/hog_gp.gif?raw=true)
+
 ### 1. Introduction
 In Hog, two players alternate turns trying to reach 100 points first. On each turn, the current player chooses some number of dice to roll, up to 10. That player's score for the turn is the sum of the dice outcomes, unless any of the dice comes up a 1, in which case the score for the turn is only 1 point (the Pig out rule).
 
