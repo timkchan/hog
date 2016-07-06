@@ -1,9 +1,9 @@
 # The Game of Hog
 
-### Introduction
+### 1. Introduction
 In Hog, two players alternate turns trying to reach 100 points first. On each turn, the current player chooses some number of dice to roll, up to 10. That player's score for the turn is the sum of the dice outcomes, unless any of the dice comes up a 1, in which case the score for the turn is only 1 point (the Pig out rule).
 
-### Special rules
+### 2. Special rules
 To spice up the game, we will play with some special rules:
 
   - __Free bacon.__ A player who chooses to roll zero dice scores one more than the largest digit in the opponent's score.
@@ -20,7 +20,7 @@ To spice up the game, we will play with some special rules:
     * _Example 2:_ Player 0 has a score of 80 and Player 1 has a score of 8 at the end of Player 1's turn. In this example, Player 1's score is viewed as 08, which is the reverse of 80. The player's scores are swapped, leaving, Player 0 with 8 and Player 1 with 80. Player 1's turn ends.
     * _Example 3:_ Player 0 begins their turn with a score of 90 while Player 1 has 70 points. Player 0 rolls 7 dice, giving them 17 points. They now have a score of 107 and Player 1 has a score of 70. Swapping the last two digits of 107 will give back 70, so the two scores are swapped. Player 0 ends their turn with a score of 70 while Player 1 now has a score of 107. Because the swap occurs before Player 0's turn is over, Player 1 wins the game.
 
-### Files
+### 3. Files
 
 Files in the project:
 
@@ -31,7 +31,7 @@ Files in the project:
 * `hog_eval.py`: Utility for evaluating the Hog project
 * `images`: A directory of images used by hog_gui.py
 
-### Running (GUI) - Tkinter required
+### 4. Running (GUI) - Tkinter required
 
 To play against Bot, run:
 ```sh
@@ -42,14 +42,14 @@ To see win rate of final stragegy, run:
 $ python3 hog.py --final
 ```
 
-### Improving the AI
+### 5. Improving the AI
 To improve the AI, you can modyfy the function:
 ```python
 def final_strategy(score, opponent_score):
 ```
 in the bottom of the file `hog.py`
 
-### Class Project Site
+### 6. Class Project Site
 [here]
 
 [here]: <http://61a-su15-website.github.io/proj/hog/>
